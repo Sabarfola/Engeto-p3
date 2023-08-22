@@ -1,3 +1,11 @@
+"""
+scraper.py: třetí projekt do Engeto Online Python Akademie
+author: Petr Janovec
+email: p.janovec@seznam.cz
+discord: djolefola
+"""
+
+
 import sys
 import csv
 import requests
@@ -11,7 +19,7 @@ class ElectionScraper:
         self.soup = self.get_soup(self.url)
 
     def get_soup(self, url):
-        """Stáhne HTML obsah z URL a vrátí jej jako BeautifulSoup objekt."""
+        """Stáhne HTML obsah z URL a vrátí jako BS objekt."""
         print("STAHUJI DATA Z URL:", url)
         response = requests.get(url)
         return BeautifulSoup(response.text, "html.parser")
