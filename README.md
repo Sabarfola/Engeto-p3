@@ -6,7 +6,7 @@ Projekt 3 pro Engeto Python Akademii
 Výběr oblasti probíhá pomocí odkazu ze sloupce "Výběr obce".
 
 ##Potřebné knihovny
-Viz. requirements.txt
+**Viz. requirements.txt**
 
 ##Práce s projektem
 
