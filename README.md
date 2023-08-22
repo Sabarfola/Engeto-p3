@@ -2,19 +2,23 @@
 
 Projekt 3 pro Engeto Python Akademii
 
+
 **Popis projektu**
+
 Účelem projektu je stažení výsledků voleb z roku 2017 pro vybraný okres z [tohoto odkazu](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101) a jejich uložení do csv souboru.
 Výběr oblasti probíhá pomocí odkazu ze sloupce "Výběr obce".
+
 
 **Potřebné knihovny**
 
 Viz. requirements.txt
 
+
 **Práce s projektem**
 
 Spuštění projektu (scraper.py) probíhá z příkazové řádky kde jsou vyžadovány dva argumenty.
 
-* *scraper.py <url odkaz v uvozovkách> <požadovaný název výstupní csv souboru>* *
+*scraper.py <url odkaz v uvozovkách> <požadovaný název výstupní csv souboru>*
 
 
 
@@ -27,6 +31,7 @@ blansko_vysledky.csv
 **Spuštění programu:**
 
 scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201" blansko_vysledky.csv
+
 
 **Běh programu**
 STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201
