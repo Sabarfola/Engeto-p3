@@ -2,7 +2,7 @@
 
 Projekt 3 pro Engeto Python Akademii
 
-
+---
 ## Popis projektu
 
 Účelem projektu je stažení výsledků voleb z roku 2017 pro vybraný okres z [tohoto odkazu](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101) a jejich uložení do csv souboru.
@@ -35,7 +35,7 @@ scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201
 
 ### Běh programu
 
-STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201 \n
+STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201
 STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=11&xobec=582671&xvyber=6201
 STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=11&xobec=582689&xvyber=6201
 STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=11&xobec=582701&xvyber=6201
