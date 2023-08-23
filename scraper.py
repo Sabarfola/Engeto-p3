@@ -39,9 +39,9 @@ class ElectionScraper:
 
     def extract_parties(self):
         """Vrací seznam stran kandidujících v daném obvodu."""
-        first_district_url = self.extract_district_links()[0]
-        first_district_soup = self.get_soup(first_district_url)
-        return [party.text for party in first_district_soup.find_all("td", "overflow_name")]
+        my_district_url = self.extract_district_links()[0]
+        my_district_soup = self.get_soup(my_district_url)
+        return [party.text for party in my_district_soup.find_all("td", "overflow_name")]
 
     def fetch_voting_data(self):
         """Vrací seznamy registrovaných voličů, účasti a platných hlasů pro všechny obvody."""
@@ -88,7 +88,7 @@ class ElectionScraper:
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print('Neplatný počet argumentů. Ukočuji...')
+        print('Neplatný počet argumentů. Ukončuji...')
     else:
         scraper = ElectionScraper(sys.argv[1])
         scraper.save_to_csv(sys.argv[2])
