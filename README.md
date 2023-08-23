@@ -3,18 +3,18 @@
 Projekt 3 pro Engeto Python Akademii
 
 
-**Popis projektu**
+## Popis projektu
 
 Účelem projektu je stažení výsledků voleb z roku 2017 pro vybraný okres z [tohoto odkazu](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101) a jejich uložení do csv souboru.
 Výběr oblasti probíhá pomocí odkazu ze sloupce "Výběr obce".
 
 
-**Potřebné knihovny**
+## Potřebné knihovny
 
 Viz. requirements.txt
 
 
-**Práce s projektem**
+## Práce s projektem
 
 Spuštění projektu (scraper.py) probíhá z příkazové řádky kde jsou vyžadovány dva argumenty.
 
@@ -22,18 +22,18 @@ Spuštění projektu (scraper.py) probíhá z příkazové řádky kde jsou vyž
 
 
 
-**Příklad argumentů pro okres Blansko:**
+### Příklad argumentů pro okres Blansko:
 
 "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201"
 blansko_vysledky.csv
 
 
-**Spuštění programu:**
+### Spuštění programu:
 
 scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201" blansko_vysledky.csv
 
 
-**Běh programu**
+### Běh programu
 
 STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6201
 STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=11&xobec=582671&xvyber=6201
@@ -43,7 +43,7 @@ STAHUJI DATA Z URL: https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=11&xobe
 UKLÁDÁM DATA DO SOUBORU: blansko_vysledky.csv
 
 
-**První řádky výstupu:**
+### První řádky výstupu:
 
 Kód obce,Název obce,Voliči v seznamu,Vydané obálky,Platné hlasy,Občanská demokratická strana,Řád národa - Vlastenecká unie,CESTA ODPOVĚDNÉ SPOLEČNOSTI,Česká str.sociálně demokrat.,Radostné Česko,STAROSTOVÉ A NEZÁVISLÍ,Komunistická str.Čech a Moravy,Strana zelených,"ROZUMNÍ-stop migraci,diktát.EU",Strana svobodných občanů,Blok proti islam.-Obran.domova,Občanská demokratická aliance,Česká pirátská strana,Referendum o Evropské unii,TOP 09,ANO 2011,Dobrá volba 2016,SPR-Republ.str.Čsl. M.Sládka,Křesť.demokr.unie-Čs.str.lid.,Česká strana národně sociální,REALISTÉ,SPORTOVCI,Dělnic.str.sociální spravedl.,Svob.a př.dem.-T.Okamura (SPD),Strana Práv Občanů,Národ Sobě
 581291,Adamov,3 668,2 157,2 138,208,3,5,222,0,76,241,37,18,28,1,7,208,5,63,565,5,14,117,2,10,3,6,278,15,1
